@@ -62,6 +62,8 @@ nav{
 nav img{
     width: 5px; 
     height: 5px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer{
