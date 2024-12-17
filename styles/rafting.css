@@ -71,7 +71,7 @@ article img{
 
 nav{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row;
     justify-content: flex-start;
 }
 
