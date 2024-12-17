@@ -70,15 +70,6 @@ section {
     padding: 1rem;
 }
 
-article {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    gap: 10px; 
-    font-weight: 100;
-    margin-top: 1rem;
-}
-
 nav{
     display: flex;
     flex-flow: row;
@@ -86,18 +77,21 @@ nav{
 }
 
 .hero {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    gap: 20px; 
+    position: relative; 
 }
 
 .hero img {
+    float: left; 
     width: 200px; 
     height: auto;
+    margin-right: 20px; 
     border: 10px solid rgb(20, 20, 20);
     padding: 2px;
     box-shadow: 0 0 30px black;
+}
+
+article {
+    clear: both;
 }
 
 .social {
