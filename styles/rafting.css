@@ -46,7 +46,7 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-.figure{
+figure{
     width:350px;
     height:auto;
     border:10px solid rgb(20, 20, 20);
