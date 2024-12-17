@@ -6,12 +6,12 @@
     src : url(https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap) format('truetype');
     }
 
-body{
+body {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
 }
 
-header{
+header {
     margin: 1rem auto;
 	display: grid;
 	grid-template-rows: 100px 1fr 1fr;
@@ -21,13 +21,13 @@ header{
     width: 100%;
 }
 
-.navigation{
+.navigation {
     display: flex;
     justify-content: flex-end;
     gap: 10px; 
 }
 
-header img{
+header img {
     width:100px;
     height:100px;
     border:10px solid rgb(20, 20, 20);
@@ -61,7 +61,7 @@ figure {
     margin: 0; 
 }
 
-div{
+div {
     position: relative;
 }
 
@@ -70,14 +70,16 @@ section {
     padding: 1rem;
 }
 
-article{
-    position: absolute;
+article {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 10px; 
     font-weight: 100;
     margin-top: 1rem;
-    padding: 1rem;
 }
 
-article img{
+article img {
     float: right;
     margin-left: 15px;
 }
@@ -88,10 +90,19 @@ nav{
     justify-content: flex-start;
 }
 
-.hero img{
-    display: block;
-    width: 100%;
+.hero {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.hero img {
+    width: 200px; 
     height: auto;
+    border: 10px solid rgb(20, 20, 20);
+    padding: 2px;
+    box-shadow: 0 0 30px black;
 }
 
 .social {
