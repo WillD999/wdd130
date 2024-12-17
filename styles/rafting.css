@@ -59,9 +59,12 @@ nav{
     height: auto;
 }
 
-footer{
+nav img{
     max-width: 10%;
     max-height: 10%;
+}
+
+footer{
     a {
         text-decoration: none;
         font-weight: 100;
