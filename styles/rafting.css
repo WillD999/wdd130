@@ -11,6 +11,10 @@ body {
     font-weight: 400;
 }
 
+main{
+    justify-content: center;
+}
+
 header {
     margin: 1rem auto;
 	display: grid;
