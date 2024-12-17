@@ -11,8 +11,22 @@ body {
     font-weight: 400;
 }
 
-main{
+main {
+    background-image: url('../images/rafting-back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex; 
     justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700; 
+    margin: 0; 
 }
 
 header {
@@ -91,7 +105,8 @@ nav{
 }
 
 .hero {
-    position: relative; 
+    position: relative;
+    text-align: center;
 }
 
 .hero img {
