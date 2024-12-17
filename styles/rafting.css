@@ -40,14 +40,19 @@ h1{
     font-weight: 100;
 }
 
-section img {
-    width:150px;
-    height:auto;
-    border:10px solid rgb(20, 20, 20);
-    padding: 2px;
+section {
     box-shadow: 0 0 30px black;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.figure{
+    width:350px;
+    height:auto;
+    border:10px solid rgb(20, 20, 20);
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
 }
 
 div{
