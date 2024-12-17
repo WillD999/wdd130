@@ -59,7 +59,7 @@ nav{
     height: auto;
 }
 
-nav img{
+.social{
     width: 5px; 
     height: 5px;
     display: flex;
