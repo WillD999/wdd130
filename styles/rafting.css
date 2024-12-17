@@ -59,11 +59,19 @@ nav{
     height: auto;
 }
 
-.social{
-    width: 5px; 
-    height: 5px;
+.social {
     display: flex;
     justify-content: flex-end;
+    gap: 10px; 
+}
+
+.social a {
+    display: block;
+}
+
+.social img {
+    width: 30px; 
+    height: auto;
 }
 
 footer{
