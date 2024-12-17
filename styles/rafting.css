@@ -30,9 +30,16 @@ div{
     position: relative;
 }
 
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
 article{
     position: absolute;
     font-weight: 100;
+    margin-top: 1rem;
+    padding: 1rem;
 }
 
 article img{
