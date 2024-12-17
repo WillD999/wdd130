@@ -46,6 +46,8 @@ section img {
     border:10px solid rgb(20, 20, 20);
     padding: 2px;
     box-shadow: 0 0 30px black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 div{
