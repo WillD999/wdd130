@@ -73,7 +73,9 @@ section h2 {
 
 .another-image-container{
     display: flex;
-    float: right;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 figure {
