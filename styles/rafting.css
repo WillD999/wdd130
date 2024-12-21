@@ -66,6 +66,7 @@ section h2 {
 
 figure {
     margin: 0;
+    text-align: center;
 }
 
 figure img {
@@ -74,6 +75,13 @@ figure img {
     border: 10px solid rgb(20, 20, 20);
     padding: 2px;
     box-shadow: 0 0 30px black;
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+figcaption {
+    font-size: 1.1rem; /* Adjust font size for readability */
+    margin-top: 10px;  /* Adds space between image and caption */
+    color: #333;       /* Makes sure the text color is visible */
 }
 
 div {
