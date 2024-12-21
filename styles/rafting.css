@@ -10,6 +10,7 @@ body {
     background-color: #f3f9f3;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 main{
@@ -62,6 +63,7 @@ section h2 {
     justify-content: center; 
     gap: 20px;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 figure {
