@@ -46,6 +46,10 @@ h1{
     font-weight: 100;
 }
 
+.top{
+    float: right;
+}
+
 section {
     margin: 2rem 0;
     padding: 1rem;
