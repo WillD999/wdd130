@@ -66,6 +66,11 @@ section h2 {
     margin-top: 20px;
 }
 
+.another-image-container{
+    display: flex;
+    float: right;
+}
+
 figure {
     margin: 0;
     text-align: center;
