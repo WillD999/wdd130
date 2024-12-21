@@ -46,8 +46,12 @@ h1{
     font-weight: 100;
 }
 
-.top{
-    float: right;
+h3{
+    text-align: right;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 section {
@@ -152,6 +156,7 @@ article {
 
 footer{
     width: 100%;
+    position: relative;
 }
 footer a {
     text-decoration: none;
