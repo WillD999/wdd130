@@ -47,11 +47,9 @@ h1{
 }
 
 h3{
-    text-align: right;
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 section {
@@ -81,7 +79,6 @@ section h2 {
 figure {
     margin: 0;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 figure img {
@@ -154,6 +151,7 @@ article {
 }
 
 footer{
+    margin-top: 50px;
     width: 100%;
     position: relative;
 }
