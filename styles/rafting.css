@@ -74,6 +74,10 @@ h2 {
     text-align: center;
 }
 
+.plans{
+    align-items: center;
+}
+
 .image-container {
     display: flex;
     justify-content: center; 
