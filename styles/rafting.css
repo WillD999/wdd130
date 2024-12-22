@@ -67,10 +67,11 @@ section {
     text-align: center; 
 }
 
-section h2 {
+h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
+    text-align: center;
 }
 
 .image-container {
