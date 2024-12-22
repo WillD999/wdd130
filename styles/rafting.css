@@ -148,8 +148,12 @@ nav{
     box-shadow: 0 0 30px black;
 }
 
+.address{
+    margin-left: 200px;
+}
+
 .map{
-    position: absolute;
+    margin-left: 100px;
 }
 
 article {
