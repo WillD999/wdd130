@@ -134,11 +134,11 @@ nav{
 }
 
 .hero {
-    position: relative; 
+    justify-content: center;
 }
 
 .hero img {
-    float: left; 
+    justify-content: center;
     width: 500px; 
     height: auto;
     margin-right: 20px; 
@@ -180,6 +180,8 @@ footer{
     padding: 10px;
     width: 100%;
     position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 footer a {
     text-decoration: none;
