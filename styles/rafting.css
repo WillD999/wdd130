@@ -233,7 +233,10 @@ input[type="radio"] {
     width: auto;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: inline-block
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;  
 }
 
 .submit-btn:hover {
@@ -252,10 +255,13 @@ input[type="radio"] {
 }
 
 .big-image {
-    position: relative;
     width: 80%;
     height: auto;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;  
 }
 
 .give-name{
@@ -265,4 +271,8 @@ input[type="radio"] {
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;  
 }
