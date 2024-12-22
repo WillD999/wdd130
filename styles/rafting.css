@@ -253,7 +253,10 @@ input[type="radio"] {
 .big-image {
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .give-name{
