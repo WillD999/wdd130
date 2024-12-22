@@ -245,6 +245,10 @@ input[type="radio"] {
 
 .form-group {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .plans{
@@ -287,12 +291,12 @@ input[type="radio"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;  
+    margin-top: 10px;
 }
 
 .go-to-trips {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;  
+    margin-top: 10px;
 }
