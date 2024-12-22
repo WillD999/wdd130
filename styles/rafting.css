@@ -250,7 +250,7 @@ input[type="radio"] {
     align-items: center;
 }
 
-.full-width-image {
+.big-image {
     width: 100%;
     height: auto;
     display: block;
