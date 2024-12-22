@@ -155,6 +155,10 @@ nav{
 
 .map{
     margin-left: 550px;
+    width: 600;
+    height: 450;
+    border: 0;
+
 }
 
 article {
@@ -227,6 +231,7 @@ input[type="radio"] {
     width: 100%;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    padding-left: 550px;
 }
 .submit-btn:hover {
     background-color: #218838;
