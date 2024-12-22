@@ -91,6 +91,7 @@ section h2 {
     justify-content: flex-end;
     gap: 20px;
     padding-top: 50px;
+    padding-right: 500px;
     flex-wrap: wrap;
 }
 
