@@ -141,7 +141,11 @@ nav{
 
 .hero {
     justify-content: center;
-    padding-left: 600px;
+    padding-left: 500px;
+}
+
+.hero article{
+    padding: 100px;
 }
 
 .hero img {
