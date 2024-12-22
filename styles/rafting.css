@@ -104,6 +104,14 @@ h2 {
     flex-wrap: wrap;
 }
 
+.image-container3{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-right: 400px;
+}
+
 figure {
     margin: 0;
     text-align: center;
