@@ -209,7 +209,7 @@ footer a {
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -232,7 +232,7 @@ input[type="radio"] {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    width: 100%;
+    width: 50%;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -241,4 +241,10 @@ input[type="radio"] {
 }
 .form-group {
     margin-bottom: 20px;
+}
+
+.plans{
+    margin-bottom: 20px;
+    width: 20%;
+    justify-content: center;
 }
