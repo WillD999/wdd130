@@ -176,6 +176,11 @@ article {
     justify-content: center;
 }
 
+button{
+    grid-template-rows: 100px 1fr 1fr;
+	align-items: center;
+}
+
 .social {
     display: flex;
     width: 100%;
