@@ -58,7 +58,7 @@ h3{
     justify-content: flex-end;
     align-items: center;
     font-weight: 100;
-    margin-right: 910px;
+    margin-right: 710px;
 }
 
 section {
@@ -90,7 +90,7 @@ h2 {
     justify-content: flex-end;
     gap: 20px;
     flex-wrap: wrap;
-    padding-right: 700px;
+    padding-right: 500px;
 }
 
 .image-container2{
@@ -98,7 +98,7 @@ h2 {
     justify-content: flex-end;
     gap: 20px;
     padding-top: 50px;
-    padding-right: 870px;
+    padding-right: 670px;
     flex-wrap: wrap;
 }
 
@@ -141,7 +141,7 @@ nav{
 
 .hero {
     justify-content: center;
-    padding-left: 800px;
+    padding-left: 600px;
 }
 
 .hero img {
@@ -151,16 +151,17 @@ nav{
     margin-right: 20px; 
     border: 10px solid rgb(20, 20, 20);
     padding: 2px;
+    padding-top: 50px;
     box-shadow: 0 0 30px black;
 }
 
 .address{
     margin-left: 200px;
-    padding-left: 700px;
+    padding-left: 500px;
 }
 
 .map{
-    margin-left: 700px;
+    margin-left: 600px;
 }
 
 article {
