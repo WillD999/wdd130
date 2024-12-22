@@ -58,7 +58,7 @@ h3{
     justify-content: flex-end;
     align-items: center;
     font-weight: 100;
-    margin-right: 210px;
+    margin-right: 910px;
 }
 
 section {
@@ -86,6 +86,7 @@ h2 {
     justify-content: flex-end;
     gap: 20px;
     flex-wrap: wrap;
+    padding-right: 700px;
 }
 
 .image-container2{
@@ -93,7 +94,7 @@ h2 {
     justify-content: flex-end;
     gap: 20px;
     padding-top: 50px;
-    padding-right: 170px;
+    padding-right: 870px;
     flex-wrap: wrap;
 }
 
@@ -150,11 +151,11 @@ nav{
 
 .address{
     margin-left: 200px;
-    padding-left: 100px;
+    padding-left: 700px;
 }
 
 .map{
-    margin-left: 100px;
+    margin-left: 700px;
 }
 
 article {
