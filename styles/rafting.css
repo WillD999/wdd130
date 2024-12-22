@@ -57,7 +57,7 @@ h3{
     justify-content: flex-end;
     align-items: center;
     font-weight: 100;
-    margin-right: 500px;
+    margin-right: 200px;
 }
 
 section {
@@ -91,7 +91,7 @@ section h2 {
     justify-content: flex-end;
     gap: 20px;
     padding-top: 50px;
-    padding-right: 500px;
+    padding-right: 200px;
     flex-wrap: wrap;
 }
 
