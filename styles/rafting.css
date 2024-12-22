@@ -284,19 +284,6 @@ input[type="radio"] {
     margin-top: 10px;  
 }
 
-.give-name {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-
 .go-to-trips {
     display: flex;
     justify-content: center;
