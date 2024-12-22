@@ -80,14 +80,14 @@ section h2 {
 
 .image-container1{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     gap: 20px;
     flex-wrap: wrap;
 }
 
 .image-container2{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     gap: 20px;
     flex-wrap: wrap;
 }
