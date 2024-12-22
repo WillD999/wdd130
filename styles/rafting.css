@@ -169,10 +169,6 @@ article {
     clear: both;
 }
 
-.head-desc{
-    justify-content: center;
-}
-
 button{
     display: grid;
     grid-template-rows: 100px 1fr 1fr;
@@ -246,5 +242,5 @@ input[type="radio"] {
 .plans{
     margin-bottom: 20px;
     width: 20%;
-    justify-content: center;
+    padding-left: 550px;
 }
