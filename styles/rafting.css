@@ -206,15 +206,19 @@ input[type="text"], input[type="email"], textarea {
     border: 1px solid #ccc;
     font-size: 16px;
 }
+
 input[type="radio"] {
     margin-right: 5px;
 }       
+
 .radio-group {
     margin-bottom: 15px;
 }  
+
 .checkbox-group {
     margin-bottom: 20px;
 }
+
 .submit-btn {
     background-color: #28a745;
     color: white;
@@ -229,9 +233,11 @@ input[type="radio"] {
 	grid-template-rows: 100px 1fr 1fr;
 	align-items: center;
 }
+
 .submit-btn:hover {
     background-color: #218838;
 }
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -248,4 +254,13 @@ input[type="radio"] {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.give-name{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
 }
