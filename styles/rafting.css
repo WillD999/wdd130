@@ -92,13 +92,6 @@ section h2 {
     flex-wrap: wrap;
 }
 
-.image-container3{
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
 figure {
     margin: 0;
     text-align: center;
