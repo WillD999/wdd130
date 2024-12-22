@@ -49,6 +49,7 @@ header img {
 
 h1{
     position: absolute;
+    justify-content: center;
     font-weight: 100;
 }
 
@@ -152,6 +153,10 @@ nav{
 
 article {
     clear: both;
+}
+
+.head-desc{
+    justify-content: center;
 }
 
 .social {
