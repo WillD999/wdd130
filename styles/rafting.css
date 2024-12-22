@@ -226,12 +226,10 @@ input[type="radio"] {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    width: 50%;
+    width: auto;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: grid;
-	grid-template-rows: 100px 1fr 1fr;
-	align-items: center;
+    display: inline-block
 }
 
 .submit-btn:hover {
@@ -243,11 +241,10 @@ input[type="radio"] {
 }
 
 .plans{
-    margin-bottom: 20px;
-    width: 20%;
-    display: grid;
-	grid-template-rows: 100px 1fr 1fr;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;  
 }
 
 .big-image {
