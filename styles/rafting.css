@@ -244,3 +244,9 @@ input[type="radio"] {
     width: 20%;
     padding-left: 550px;
 }
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
