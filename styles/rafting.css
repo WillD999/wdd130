@@ -169,12 +169,6 @@ article {
     clear: both;
 }
 
-button{
-    display: grid;
-    grid-template-rows: 100px 1fr 1fr;
-	align-items: center;
-}
-
 .social {
     display: flex;
     width: 100%;
@@ -231,9 +225,9 @@ input[type="radio"] {
     width: 50%;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+	grid-template-rows: 100px 1fr 1fr;
+	align-items: center;
 }
 .submit-btn:hover {
     background-color: #218838;
@@ -245,9 +239,9 @@ input[type="radio"] {
 .plans{
     margin-bottom: 20px;
     width: 20%;
-    display: flex;
-    justify-content: center; /* Centers the button horizontally */
-    align-items: center;
+    display: grid;
+	grid-template-rows: 100px 1fr 1fr;
+	align-items: center;
 }
 
 .big-image {
